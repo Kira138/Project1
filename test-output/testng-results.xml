@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T23:19:42 PST" name="Default suite" finished-at="2024-11-13T23:20:42 PST" duration-ms="59684">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T23:19:42 PST" name="Default test" finished-at="2024-11-13T23:20:42 PST" duration-ms="59684">
+      <class name="MercuryTours.FlightsTest">
+        <test-method is-config="true" signature="bc()[pri:0, instance:MercuryTours.FlightsTest@45ca843]" started-at="2024-11-13T23:19:42 PST" name="bc" finished-at="2024-11-13T23:19:52 PST" duration-ms="9850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="Flighbooking()[pri:0, instance:MercuryTours.FlightsTest@45ca843]" started-at="2024-11-13T23:19:52 PST" name="Flighbooking" finished-at="2024-11-13T23:20:42 PST" duration-ms="49618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flighbooking -->
+      </class> <!-- MercuryTours.FlightsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

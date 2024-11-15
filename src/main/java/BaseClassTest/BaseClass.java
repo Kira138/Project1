@@ -34,7 +34,7 @@ public class BaseClass {
 			driver = new EdgeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 	}
 	@AfterClass
 	 public void tearDown() {

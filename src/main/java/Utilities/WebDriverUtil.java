@@ -20,9 +20,6 @@ public class WebDriverUtil {
         wait.until(ExpectedConditions.urlContains(partialPageURL));
     }
 
-    // Waits for visibility of a specified element
-    public void waitForElement(WebDriver driver, WebElement element) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
+    
+    
 }
